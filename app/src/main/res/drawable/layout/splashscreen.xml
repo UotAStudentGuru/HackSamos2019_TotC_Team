@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#fff"
+    android:layout_gravity="center"
+    android:id="@+id/lin_lay"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <ImageView
+        android:id="@+id/splash"
+        android:layout_width="280dp"
+        android:layout_height="282dp"
+        android:background="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/textLogo"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-light"
+        android:textColor="#000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="EV and Give v1.0" />
+
+
+</LinearLayout>

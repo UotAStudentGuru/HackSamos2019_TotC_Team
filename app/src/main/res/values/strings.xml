@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Hands of Care</string>
+    <string name="action_debug">Debug View</string>
+    <string name="sign_in">Sign In</string>
+</resources>

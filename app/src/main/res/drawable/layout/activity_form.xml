@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Form">
+
+    <EditText
+        android:id="@+id/DescriptionTextForm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edittext_backround"
+        android:ems="12"
+        android:hint="Description*"
+        android:importantForAutofill="no"
+        android:inputType="textEmailAddress"
+        android:padding="8dp"
+        android:textColor="#000"
+        android:textColorHint="#000"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/CategoryTextForm"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <EditText
+        android:id="@+id/CategoryTextForm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edittext_backround"
+        android:ems="12"
+        android:hint="Category*"
+        android:importantForAutofill="no"
+        android:inputType="textEmailAddress"
+        android:padding="8dp"
+        android:textColor="#000"
+        android:textColorHint="#000"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/OtherTextForm"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/DescriptionTextForm" />
+
+    <EditText
+        android:id="@+id/OtherTextForm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edittext_backround"
+        android:ems="12"
+        android:hint="Other"
+        android:importantForAutofill="no"
+        android:inputType="textEmailAddress"
+        android:padding="8dp"
+        android:textColor="#000"
+        android:textColorHint="#000"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/btnSubmitForm"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/CategoryTextForm" />
+
+    <Button
+        android:id="@+id/btnSubmitForm"
+        android:layout_width="92dp"
+        android:layout_height="55dp"
+        android:layout_gravity="center"
+        android:background="@drawable/btn_gradient_style"
+        android:text="Submit"
+        android:textColor="#fff"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/OtherTextForm" />
+
+</android.support.constraint.ConstraintLayout>
